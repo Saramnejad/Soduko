@@ -167,7 +167,7 @@ button {
   font-size: larger;
   cursor: pointer;
   box-shadow: 5px 5px 1px 4px rgba(100, 120, 150, 0.2);
-  transform: scale(1,2);
+   transform: scale(1,2);
   transform: translateX(100vh)
              translateY(500px)
 }
