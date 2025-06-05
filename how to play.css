@@ -114,6 +114,16 @@ a {
  line-height: 1.25;
 
 }
+.green{
+  color: rgb(37, 243, 71);
+
+}
+.yellow{
+  color: rgb(241, 239, 69);
+}
+.red{
+  color: rgb(247, 9, 9);
+}
 .title{
   width: 600px;
   height: 70px;
@@ -146,9 +156,18 @@ a {
 }
 
 button:focus {
-  box-shadow: 0 0 0 4px rgba(4, 49, 88, 0.15);
+  box-shadow: 0 0 0 4px rgba(4, 49, 88, 0.3);
 }
 button:hover {
   transform: scale(1.05);
 }
+.cell-green{
+  background-color: #0beb4e73;
+}
+
+.cell-red{
+  background-color: rgba(255, 0, 0, 0.397);
+}
+
+
 
