@@ -18,6 +18,9 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px;
   border: 1px solid black;
+  font-size: 2vw;
+  align-content: center;
+  justify-content: center;
 }
 
 .cell {
@@ -25,6 +28,7 @@ body {
   width: 40;
   aspect-ratio: 1;
   border: 1px solid gray;
+  display: flex;
 }
 #c3,
 #c12,
@@ -169,5 +173,8 @@ button:hover {
   background-color: rgba(255, 0, 0, 0.397);
 }
 
+.cell-yellow{
+  background-color: #fbff02b7;
+}
 
 
